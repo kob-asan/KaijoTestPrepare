@@ -1,5 +1,5 @@
 {
-  "name": "数学A",
+  "name": "数学B",
   "chapters": [
     { "id": "counting-basic", "name": "場合の数（基本）" },
     { "id": "permutation", "name": "順列" },
