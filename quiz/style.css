@@ -217,3 +217,52 @@ button:hover {
     }
 
 }
+
+/* ---------- 終了画面 ---------- */
+
+#quiz h2 {
+    text-align: center;
+    color: #4f46e5;
+    margin-bottom: 20px;
+}
+
+#quiz p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
+.result-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4f46e5;
+    margin: 20px 0;
+}
+
+.result-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.result-buttons button {
+    background: #4f46e5;
+    color: white;
+    min-width: 180px;
+}
+
+.result-buttons button:hover {
+    background: #4338ca;
+}
+
+@media (max-width: 700px) {
+    .result-buttons {
+        flex-direction: column;
+    }
+
+    .result-buttons button {
+        width: 100%;
+    }
+}
