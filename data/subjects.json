@@ -1,9 +1,9 @@
 [
   {
     "id": "mathA",
-    "name": "数学A",
+    "name": "数学B",
     "icon": "📐",
-    "description": "数学Aを学習",
+    "description": "数学Bを学習",
     "path": "subjects/mathA/index.html"
   },
   {
