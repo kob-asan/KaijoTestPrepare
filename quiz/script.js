@@ -164,7 +164,6 @@ nextButton.addEventListener("click", () => {
 });
 
 nextButton.style.display = "none";
-
 document.getElementById("retireButton").addEventListener("click", () => {
 
     if (!confirm("クイズを終了しますか？")) return;
@@ -175,13 +174,7 @@ document.getElementById("retireButton").addEventListener("click", () => {
         <h2>🏳️ リタイア</h2>
         <p>正答数：${score} / ${questions.length}</p>
         <p>正答率：${rate}%</p>
-
-        <div class="result-buttons">
-            <button onclick="location.reload()">🔄 もう一度挑戦</button>
-            <button onclick="location.href='../subjects/${subject}/index.html'">
-                📚 単元一覧へ戻る
-            </button>
-        </div>
     `;
+
 });
 
