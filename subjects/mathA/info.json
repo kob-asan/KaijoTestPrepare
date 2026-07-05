@@ -3,19 +3,19 @@
   "chapters": [
   {
     "id": "polynomial-division",
-    "title": "多項式の除法"
+    "name": "多項式の除法"
   },
   {
     "id": "rational-expressions",
-    "title": "分数式の計算"
+    "name": "分数式の計算"
   },
   {
     "id": "identities",
-    "title": "恒等式"
+    "name": "恒等式"
   },
   {
     "id": "equation-proofs",
-    "title": "等式の証明"
+    "name": "等式の証明"
   }
 ]
 }
