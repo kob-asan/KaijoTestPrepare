@@ -164,17 +164,5 @@ nextButton.addEventListener("click", () => {
 });
 
 nextButton.style.display = "none";
-document.getElementById("retireButton").addEventListener("click", () => {
 
-    if (!confirm("クイズを終了しますか？")) return;
-
-    const rate = Math.round(score / questions.length * 100);
-
-    document.getElementById("quiz").innerHTML = `
-        <h2>🏳️ リタイア</h2>
-        <p>正答数：${score} / ${questions.length}</p>
-        <p>正答率：${rate}%</p>
-    `;
-
-});
 
