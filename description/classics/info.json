@@ -1,0 +1,13 @@
+{
+  "name": "古文・漢文",
+  "chapters": [
+    {
+      "id": "kobun",
+      "name": "📖 古文"
+    },
+    {
+      "id": "kanbun",
+      "name": "📜 漢文"
+    }
+  ]
+}

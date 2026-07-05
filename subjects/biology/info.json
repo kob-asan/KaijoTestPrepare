@@ -1,0 +1,21 @@
+{
+  "name": "生物",
+  "chapters": [
+    {
+      "id": "photosynthesis-respiration",
+      "name": "光合成と呼吸"
+    },
+    {
+      "id": "reproduction",
+      "name": "生殖と遺伝"
+    },
+    {
+      "id": "cell-division",
+      "name": "細胞分裂"
+    },
+    {
+      "id": "genetics",
+      "name": "遺伝"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "mathA",
+    "name": "数学A",
+    "icon": "📐",
+    "description": "数学Aを学習",
+    "path": "subjects/mathA/index.html"
+  },
+  {
+    "id": "biology",
+    "name": "生物",
+    "icon": "🧬",
+    "description": "生物の問題を学習",
+    "path": "subjects/biology/index.html"
+  }
+]

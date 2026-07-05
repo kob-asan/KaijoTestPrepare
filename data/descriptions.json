@@ -1,0 +1,9 @@
+[
+  {
+    "id": "classics",
+    "name": "古文・漢文",
+    "icon": "📜",
+    "description": "教科書本文の解説",
+    "path": "description/classics/index.html"
+  }
+]

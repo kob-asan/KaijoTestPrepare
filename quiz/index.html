@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Test Prepare</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <button id="backButton">
+        ← 戻る
+    </button>
+
+    <div>
+
+        <h1 id="subjectName">
+            数学A
+        </h1>
+
+        <p id="chapterName">
+            場合の数（基本）
+        </p>
+
+    </div>
+
+</header>
+
+<main>
+
+    <main id="quiz">
+
+    <section id="progressSection">
+
+        <div id="progressInfo">
+
+            <span id="questionNumber">
+                問題 1 / 20
+            </span>
+
+            <span id="correctRate">
+                正答率 100%
+            </span>
+
+        </div>
+
+        <div id="progressBar">
+
+            <div id="progress"></div>
+
+        </div>
+
+    </section>
+
+    <section id="questionSection">
+
+        <h2 id="question">
+
+            問題を読み込んでいます...
+
+        </h2>
+
+        <input
+            type="text"
+            id="answer"
+            placeholder="答えを入力してください">
+
+        <button id="submitButton">
+
+            答え合わせ
+
+        </button>
+
+    </section>
+
+    <section id="resultSection">
+
+    <p id="resultText"></p>
+
+</section>
+
+    <section id="navigation">
+
+        <button id="nextButton" style="display:none;">
+
+            次の問題 →
+
+        </button>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "数学A",
+  "chapters": [
+    { "id": "counting-basic", "name": "場合の数（基本）" },
+    { "id": "permutation", "name": "順列" },
+    { "id": "circular-duplicate-permutation", "name": "円順列・重複順列" },
+    { "id": "combination", "name": "組み合わせ" },
+    { "id": "duplicate-elements-permutation", "name": "同じものを含む順列" },
+    { "id": "events-and-probability", "name": "事象と確率" },
+    { "id": "probability-properties", "name": "確率の基本性質" },
+    { "id": "independent-trials", "name": "独立な試行" },
+    { "id": "repeated-trials", "name": "反復試行" },
+    { "id": "conditional-probability", "name": "条件付き確率" },
+    { "id": "expected-value", "name": "期待値" }
+  ]
+}

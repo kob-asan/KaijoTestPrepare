@@ -1,0 +1,125 @@
+{
+  "chapter": "遺伝",
+  "questions": [
+    {
+      "id": 1,
+      "question": "遺伝の法則を発見した人物を答えよ。",
+      "answer": "メンデル",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 2,
+      "question": "形質を決定するDNA上の情報の単位を何というか。",
+      "answer": "遺伝子",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 3,
+      "question": "遺伝子が存在する細胞内の構造を答えよ。",
+      "answer": "染色体",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 4,
+      "question": "遺伝物質の本体を答えよ。",
+      "answer": "DNA",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 5,
+      "question": "対になって存在する同じ形質に関する2つの遺伝子を何というか。",
+      "answer": "対立遺伝子",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 6,
+      "question": "AAやAaなど、対立遺伝子の組み合わせを何というか。",
+      "answer": "遺伝子型",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 7,
+      "question": "実際に現れる形質を何というか。",
+      "answer": "表現型",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 8,
+      "question": "ヘテロ接合体を日本語で何というか。",
+      "answer": "雑種",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 9,
+      "question": "ホモ接合体を日本語で何というか。",
+      "answer": "純系",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 10,
+      "question": "減数分裂の際、対立遺伝子が別々の配偶子に分かれる法則を何というか。",
+      "answer": "分離の法則",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 11,
+      "question": "異なる染色体上の遺伝子が互いに独立して配偶子に分かれる法則を何というか。",
+      "answer": "独立の法則",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 12,
+      "question": "優性形質と劣性形質のうち、ヘテロ接合体で現れる形質を何というか。",
+      "answer": "優性形質",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 13,
+      "question": "DNAを構成する糖を答えよ。",
+      "answer": "デオキシリボース",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 14,
+      "question": "DNAを構成する塩基のうち、アデニンと結合する塩基を答えよ。",
+      "answer": "チミン",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 15,
+      "question": "DNAを構成する塩基のうち、グアニンと結合する塩基を答えよ。",
+      "answer": "シトシン",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 16,
+      "question": "DNAの基本単位を何というか。",
+      "answer": "ヌクレオチド",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 17,
+      "question": "DNAが自分と同じDNAをつくることを何というか。",
+      "answer": "DNAの複製",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 18,
+      "question": "遺伝情報をDNAからmRNAへ写し取ることを何というか。",
+      "answer": "転写",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 19,
+      "question": "mRNAの情報をもとにタンパク質を合成することを何というか。",
+      "answer": "翻訳",
+      "explanation": "(解説は順次追加予定)"
+    },
+    {
+      "id": 20,
+      "question": "DNAの二重らせん構造を提唱した2人を答えよ。",
+      "answer": "ワトソンとクリック",
+      "explanation": "(解説は順次追加予定)"
+    }
+  ]
+}
