@@ -138,16 +138,18 @@ nextButton.addEventListener("click", () => {
     }
 
     document.getElementById("quiz").innerHTML = `
-        <h2>🎉 終了！</h2>
-        <p>正答数：${score} / ${questions.length}</p>
-        <p>正答率：${rate}%</p>
-        <p>${message}</p>
+    <h2>🎉 終了！</h2>
+    <p>正答数：${score} / ${questions.length}</p>
+    <p>正答率：${rate}%</p>
+    <p class="result-message">${message}</p>
 
+    <div class="result-buttons">
         <button onclick="location.reload()">🔄 もう一度挑戦</button>
         <button onclick="location.href='../subjects/${subject}/index.html'">
             📚 単元一覧へ戻る
         </button>
-    `;
+    </div>
+`;
 
     return;
 }
