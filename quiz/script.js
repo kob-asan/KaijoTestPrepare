@@ -123,14 +123,34 @@ nextButton.addEventListener("click", () => {
 
     if (currentQuestion >= questions.length) {
 
-        document.getElementById("quiz").innerHTML = `
-            <h2>終了！</h2>
-            <p>正答数：${score} / ${questions.length}</p>
-        `;
+    const rate = Math.round(score / questions.length * 100);
 
-        return;
+    let message;
+
+    if (rate === 100) {
+        message = "🏆 満点！完璧です！";
+    } else if (rate >= 80) {
+        message = "🌟 とてもよくできました！";
+    } else if (rate >= 60) {
+        message = "👍 もう少しで完璧！";
+    } else {
+        message = "📖 復習してもう一度挑戦しよう！";
     }
 
+    document.getElementById("quiz").innerHTML = `
+        <h2>🎉 終了！</h2>
+        <p>正答数：${score} / ${questions.length}</p>
+        <p>正答率：${rate}%</p>
+        <p>${message}</p>
+
+        <button onclick="location.reload()">🔄 もう一度挑戦</button>
+        <button onclick="location.href='../subjects/${subject}/index.html'">
+            📚 単元一覧へ戻る
+        </button>
+    `;
+
+    return;
+}
     answerInput.value = "";
     resultSection.innerHTML = "";
 
