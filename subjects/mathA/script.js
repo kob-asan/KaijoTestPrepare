@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             card.className="chapter-card";
 
             card.innerHTML=`
-                <h2>📘 ${chapter.name}</h2>
+                <h2>📘 ${chapter.title}</h2>
                 <p>クリックして学習を開始</p>
             `;
 
